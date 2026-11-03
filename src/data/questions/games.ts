@@ -1,0 +1,105 @@
+import type { QuestionDef } from '../../types';
+
+export const games: QuestionDef[] = [
+  {
+    id: 'gam-nintendo-char',
+    theme: 'games',
+    prompt: 'Name a Nintendo character',
+    hint: 'From a game Nintendo made or published',
+    open: true,
+    answers: {
+      plankton: ['Mario', 'Luigi', 'Pikachu', 'Link', 'Princess Peach|Peach'],
+      shrimp: ['Bowser', 'Yoshi', 'Donkey Kong', 'Kirby', 'Zelda|Princess Zelda', 'Toad', 'Wario', 'Ganondorf|Ganon'],
+      jellyfish: ['Samus Aran|Samus', 'Fox McCloud|Fox', 'Waluigi', 'Princess Daisy|Daisy', 'Rosalina', 'Diddy Kong', 'Isabelle', 'Tom Nook', 'Inkling', 'Ness', 'Captain Falcon', 'Olimar|Captain Olimar', 'Pit', 'Meta Knight', 'King Dedede|Dedede', 'Boo', 'Koopa Troopa', 'Shy Guy', 'Bowser Jr.|Bowser Jr', 'Toadette', 'Birdo'],
+      octopus: ['Marth', 'Ike', 'Lucina', 'Robin', 'Shulk', 'Falco', 'Slippy', 'Peppy', 'Wolf', 'Ridley', 'Kamek', 'Lakitu', 'Goomba', 'Chain Chomp', 'Petey Piranha|Piranha Plant', 'Dry Bones', 'King Boo', 'Funky Kong', 'Cranky Kong', 'Dixie Kong', 'K. Rool|King K. Rool', 'Tingle', 'Navi', 'Midna', 'Epona', 'Impa', 'Sheik', 'Zant', 'Ness', 'Lucas', 'Paula', 'Villager', 'K.K. Slider|KK Slider', 'Blathers', 'Celeste', 'Pauline', 'Cappy', 'Waddle Dee', 'Bandana Dee', 'Magolor', 'Jigglypuff', 'Mewtwo', 'Ice Climbers|Popo|Nana', 'Little Mac', 'Mr. Game & Watch|Mr Game and Watch', 'R.O.B.|ROB', 'Duck Hunt Dog|Duck Hunt'],
+      anglerfish: ['Tetra', 'Revali', 'Mipha', 'Daruk', 'Urbosa', 'Sidon', 'Fi', 'Ghirahim', 'Vaati', 'Skull Kid', 'Majora', 'Ravio', 'Hilda', 'Groose', 'Beedle', 'Kass', 'Hestu', 'Riju', 'Teba', 'Yunobo', 'Purah', 'Robbie', 'Fawful', 'Dimentio', 'Count Bleck', 'Geno', 'Mallow', 'Smithy', 'Cackletta', 'Fawful', 'Tatanga', 'Wart', 'King Bob-omb', 'Professor E. Gadd|E. Gadd', 'Starlow', 'Ashley', 'Jimmy T', '9-Volt', '18-Volt', 'Dr. Crygor', 'Mona', 'Kat and Ana', 'Pyra', 'Mythra', 'Rex', 'Noah', 'Mio', 'Elma', 'Fiora', 'Dunban', 'Reyn', 'Melia', 'Riki', 'Chrom', 'Corrin', 'Byleth', 'Edelgard', 'Dimitri', 'Claude', 'Roy', 'Lyn', 'Eliwood', 'Hector', 'Alm', 'Celica', 'Sigurd', 'Seliph', 'Ephraim', 'Eirika', 'Tharja', 'Lon\'qu', 'Alear', 'Krystal', 'Andross', 'Dark Samus', 'Sylux', 'Kraid', 'Mother Brain', 'Adam Malkovich', 'Quadruple Bean'],
+    },
+  },
+  {
+    id: 'gam-pokemon-gen1',
+    theme: 'games',
+    prompt: 'Name an original (Generation 1) Pokémon',
+    hint: 'The first 151',
+    answers: {
+      plankton: ['Pikachu', 'Charizard', 'Bulbasaur', 'Squirtle', 'Charmander'],
+      shrimp: ['Mewtwo', 'Mew', 'Eevee', 'Jigglypuff', 'Snorlax', 'Gengar', 'Psyduck', 'Meowth', 'Magikarp', 'Gyarados', 'Blastoise', 'Venusaur', 'Dragonite', 'Charmeleon', 'Ivysaur', 'Wartortle', 'Raichu'],
+      jellyfish: ['Ditto', 'Lapras', 'Onix', 'Machamp', 'Alakazam', 'Abra', 'Kadabra', 'Geodude', 'Golem', 'Vulpix', 'Ninetales', 'Growlithe', 'Arcanine', 'Caterpie', 'Butterfree', 'Weedle', 'Beedrill', 'Pidgey', 'Pidgeotto', 'Pidgeot', 'Rattata', 'Zubat', 'Golbat', 'Oddish', 'Diglett', 'Ponyta', 'Rapidash', 'Slowpoke', 'Cubone', 'Marowak', 'Haunter', 'Gastly', 'Jolteon', 'Flareon', 'Vaporeon', 'Articuno', 'Zapdos', 'Moltres', 'Dratini', 'Dragonair', 'Togepi', 'Clefairy', 'Wigglytuff', 'Staryu', 'Starmie', 'Koffing', 'Ekans', 'Arbok', 'Sandshrew', 'Nidoran', 'Mr. Mime|Mr Mime', 'Scyther', 'Magmar', 'Electabuzz', 'Jynx', 'Hitmonlee', 'Hitmonchan', 'Lickitung', 'Tauros', 'Aerodactyl', 'Kabuto', 'Omanyte', 'Porygon', 'Machop', 'Muk', 'Grimer', 'Weezing', 'Voltorb', 'Electrode', 'Exeggutor', 'Magnemite', 'Magneton', 'Seel', 'Dewgong', 'Shellder', 'Cloyster', 'Krabby', 'Kingler', 'Horsea', 'Seadra', 'Goldeen', 'Seaking', 'Tentacool', 'Tentacruel', 'Poliwag', 'Poliwhirl', 'Poliwrath', 'Bellsprout', 'Weepinbell', 'Victreebel', 'Mankey', 'Primeape', 'Farfetch\'d|Farfetchd', 'Doduo', 'Dodrio', 'Spearow', 'Fearow', 'Rhyhorn', 'Rhydon', 'Chansey', 'Kangaskhan', 'Pinsir', 'Tangela'],
+      octopus: ['Sandslash', 'Nidorina', 'Nidoqueen', 'Nidorino', 'Nidoking', 'Clefable', 'Paras', 'Parasect', 'Venonat', 'Venomoth', 'Dugtrio', 'Persian', 'Golduck', 'Gloom', 'Vileplume', 'Raticate', 'Metapod', 'Kakuna', 'Graveler', 'Slowbro', 'Drowzee', 'Hypno', 'Exeggcute', 'Kabutops', 'Omastar', 'Magikarp', 'Machoke'],
+    },
+  },
+  {
+    id: 'gam-console',
+    theme: 'games',
+    prompt: 'Name a home or handheld games console',
+    open: true,
+    answers: {
+      plankton: ['PlayStation|PS1|PSX', 'Xbox', 'Nintendo Switch|Switch', 'PlayStation 5|PS5', 'PlayStation 4|PS4'],
+      shrimp: ['Wii', 'Game Boy|Gameboy', 'Nintendo DS|DS', 'PlayStation 2|PS2', 'PlayStation 3|PS3', 'Xbox 360', 'Xbox One', 'Xbox Series X|Series X', 'Nintendo 64|N64', 'Switch 2|Nintendo Switch 2'],
+      jellyfish: ['GameCube', 'Wii U', 'Nintendo 3DS|3DS', 'Game Boy Advance|GBA', 'Game Boy Color|GBC', 'SNES|Super Nintendo|Super NES', 'NES|Nintendo Entertainment System', 'Sega Mega Drive|Mega Drive|Sega Genesis|Genesis', 'PSP|PlayStation Portable', 'PS Vita|PlayStation Vita|Vita', 'Steam Deck', 'Atari 2600', 'Xbox Series S|Series S'],
+      octopus: ['Sega Dreamcast|Dreamcast', 'Sega Saturn|Saturn', 'Sega Master System|Master System', 'Sega Game Gear|Game Gear', 'Nintendo DSi|DSi', 'New 3DS', '2DS|Nintendo 2DS', 'Virtual Boy', 'Atari Lynx|Lynx', 'Atari Jaguar|Jaguar', 'Neo Geo', 'TurboGrafx-16|PC Engine', 'Intellivision', 'ColecoVision', 'Magnavox Odyssey|Odyssey', 'Game & Watch|Game and Watch', 'N-Gage', 'Ouya', 'Google Stadia|Stadia', 'ROG Ally', 'Analogue Pocket', 'Playdate', 'Sega 32X|32X', 'Sega CD|Mega CD', 'PlayStation Portal', 'Game Boy Micro'],
+      anglerfish: ['3DO', 'Philips CD-i|CD-i', 'Amiga CD32|CD32', 'Vectrex', 'Fairchild Channel F|Channel F', 'Atari 5200', 'Atari 7800', 'Bally Astrocade', 'WonderSwan', 'Neo Geo Pocket', 'Nokia N-Gage', 'Gizmondo', 'Tiger Game.com|Game.com', 'Pippin|Apple Pippin', 'Nuon', 'Sega Pico', 'Pocketstation', 'Nintendo 64DD|64DD', 'Satellaview', 'Famicom Disk System', 'Virtual Boy', 'Atari ST', 'Amstrad GX4000|GX4000', 'Commodore 64 Games System|C64GS', 'Casio Loopy', 'PC-FX', 'Supervision|Watara Supervision', 'Pokemon Mini|Pokémon Mini', 'Evercade', 'Atari VCS', 'Intellivision Amico|Amico'],
+    },
+  },
+  {
+    id: 'gam-minecraft-mob',
+    theme: 'games',
+    prompt: 'Name a mob in Minecraft',
+    answers: {
+      plankton: ['Creeper', 'Zombie', 'Skeleton', 'Enderman', 'Pig', 'Cow'],
+      shrimp: ['Spider', 'Sheep', 'Chicken', 'Villager', 'Ender Dragon', 'Wither', 'Wolf', 'Cat', 'Horse', 'Iron Golem|Golem', 'Slime'],
+      jellyfish: ['Witch', 'Blaze', 'Ghast', 'Piglin', 'Zombie Piglin|Zombified Piglin|Zombie Pigman', 'Pillager', 'Squid', 'Bat', 'Rabbit', 'Fox', 'Bee', 'Axolotl', 'Warden', 'Phantom', 'Drowned', 'Wandering Trader', 'Snow Golem', 'Allay', 'Goat', 'Parrot', 'Panda', 'Polar Bear', 'Llama', 'Dolphin', 'Turtle', 'Frog', 'Ocelot', 'Mooshroom', 'Cave Spider', 'Silverfish', 'Magma Cube', 'Elder Guardian', 'Guardian', 'Hoglin', 'Shulker', 'Endermite', 'Wither Skeleton'],
+      octopus: ['Evoker', 'Vindicator', 'Ravager', 'Vex', 'Stray', 'Husk', 'Piglin Brute', 'Zoglin', 'Strider', 'Glow Squid', 'Sniffer', 'Camel', 'Armadillo', 'Breeze', 'Bogged', 'Tadpole', 'Pufferfish', 'Salmon', 'Cod', 'Tropical Fish', 'Donkey', 'Mule', 'Skeleton Horse', 'Zombie Horse', 'Zombie Villager', 'Trader Llama', 'Creaking', 'Happy Ghast', 'Illusioner', 'Giant'],
+      anglerfish: ['Chicken Jockey', 'Spider Jockey', 'Killer Bunny', 'Johnny', 'Herobrine'],
+    },
+  },
+  {
+    id: 'gam-board-game',
+    theme: 'games',
+    prompt: 'Name a board game',
+    open: true,
+    answers: {
+      plankton: ['Monopoly', 'Chess', 'Scrabble', 'Cluedo|Clue'],
+      shrimp: ['Snakes and Ladders|Chutes and Ladders', 'Checkers|Draughts', 'Risk', 'Trivial Pursuit', 'Operation', 'Guess Who|Guess Who?', 'Ludo', 'Connect Four|Connect 4', 'Battleship|Battleships', 'Game of Life|The Game of Life|Life', 'Backgammon', 'Pictionary', 'Jenga', 'Catan|Settlers of Catan', 'Mouse Trap|Mousetrap'],
+      jellyfish: ['Ticket to Ride', 'Pandemic', 'Carcassonne', 'Go', 'Othello|Reversi', 'Stratego', 'Sorry!|Sorry', 'Mastermind', 'Hungry Hungry Hippos|Hungry Hippos', 'Buckaroo', 'Kerplunk', 'Downfall', 'Frustration', 'Trouble', 'Twister', 'Codenames', 'Dungeons & Dragons|Dungeons and Dragons|D&D', 'Exploding Kittens', 'Uno', 'Articulate', 'Taboo', 'Boggle', 'Yahtzee', 'Mahjong|Mah-jong', 'Dominoes', 'Mancala', 'Chinese Checkers', 'Nine Men\'s Morris', 'Labyrinth', 'Escape from Colditz', 'Hero Quest|HeroQuest', 'Kingdomino', 'Splendor', 'Azul', 'Wingspan', 'Dixit', 'Scotland Yard', 'Cranium', 'Balderdash', 'Dobble|Spot It'],
+      octopus: ['7 Wonders', 'Dominion', 'Agricola', 'Puerto Rico', 'Power Grid', 'Terraforming Mars', 'Gloomhaven', 'Scythe', 'Twilight Imperium', 'Arkham Horror', 'Betrayal at House on the Hill|Betrayal', 'Small World', 'King of Tokyo', 'Love Letter', 'Coup', 'The Resistance', 'Avalon', 'Mysterium', 'Sushi Go', 'Patchwork', 'Root', 'Everdell', 'Cascadia', 'Spirit Island', 'Brass|Brass Birmingham', 'Concordia', 'Terra Mystica', 'Through the Ages', 'Diplomacy', 'Axis & Allies|Axis and Allies', 'Talisman', 'Blokus', 'Quoridor', 'Abalone', 'Hive', 'Santorini', 'Patolli', 'Senet', 'Royal Game of Ur|Game of Ur', 'Shogi', 'Xiangqi|Chinese chess', 'Janggi', 'Hnefatafl|Tafl', 'Pachisi', 'Parcheesi', 'Carrom', 'Crokinole', 'Escape Room', 'Mysterium', 'Cards Against Humanity', 'Ark Nova', 'Dune: Imperium|Dune Imperium', 'Lost Ruins of Arnak', 'Viticulture', 'Castles of Burgundy', 'Great Western Trail', 'Mansions of Madness', 'Eldritch Horror', 'Robinson Crusoe', 'Pandemic Legacy', 'Risk Legacy', 'Twilight Struggle', 'Memoir \'44|Memoir 44', 'Splendor', 'Jaipur', 'Lost Cities', 'Hanabi', 'The Crew', 'Wavelength', 'Just One', 'Decrypto', 'Telestrations', 'Monikers', 'Camel Up', 'Takenoko', 'Tokaido', 'Istanbul', 'Five Tribes', 'Lords of Waterdeep', 'Stone Age', 'Caylus', 'El Grande', 'Tigris & Euphrates|Tigris and Euphrates', 'Acquire', 'Cosmic Encounter', 'Fireball Island', 'Survive', 'Go for Broke', 'Ghost Castle', 'Crossbows and Catapults', 'Game of Thrones|A Game of Thrones', 'Mage Knight', 'Nemesis', 'Zombicide', 'Blood Rage', 'Rising Sun', 'Kemet', 'Cyclades', 'Inis', 'Heat|Heat: Pedal to the Metal'],
+    },
+  },
+  {
+    id: 'gam-mario-kart',
+    theme: 'games',
+    prompt: 'Name a playable character in Mario Kart 8 Deluxe',
+    hint: 'Base game or Booster Course Pass',
+    answers: {
+      plankton: ['Mario', 'Luigi', 'Princess Peach|Peach', 'Bowser', 'Yoshi', 'Toad'],
+      shrimp: ['Donkey Kong|DK', 'Wario', 'Waluigi', 'Princess Daisy|Daisy', 'Rosalina', 'Baby Mario', 'Koopa Troopa', 'Shy Guy'],
+      jellyfish: ['Baby Luigi', 'Baby Peach', 'Baby Daisy', 'Baby Rosalina', 'Toadette', 'Bowser Jr.|Bowser Jr', 'Lakitu', 'Metal Mario', 'Pink Gold Peach', 'King Boo', 'Dry Bones', 'Link', 'Inkling Girl|Inkling', 'Inkling Boy', 'Villager', 'Isabelle', 'Tanooki Mario', 'Cat Peach', 'Birdo'],
+      octopus: ['Larry|Larry Koopa', 'Lemmy|Lemmy Koopa', 'Wendy|Wendy O. Koopa|Wendy Koopa', 'Ludwig|Ludwig von Koopa', 'Iggy|Iggy Koopa', 'Roy|Roy Koopa', 'Morton|Morton Koopa Jr', 'Dry Bowser', 'Mii', 'Pauline', 'Petey Piranha', 'Wiggler', 'Kamek', 'Diddy Kong', 'Funky Kong', 'Peachette'],
+    },
+  },
+  {
+    id: 'gam-chess-opening',
+    theme: 'games',
+    prompt: 'Name a chess opening',
+    open: true,
+    answers: {
+      plankton: ['Sicilian Defence|Sicilian Defense|Sicilian', 'Queen\'s Gambit'],
+      shrimp: ['Ruy Lopez|Spanish Opening|Spanish', 'Italian Game|Italian|Giuoco Piano', 'French Defence|French Defense|French', 'King\'s Gambit', 'London System|London'],
+      jellyfish: ['Caro-Kann|Caro Kann Defence|Caro-Kann Defense', 'King\'s Indian Defence|King\'s Indian Defense|King\'s Indian', 'English Opening|English', 'Scandinavian Defence|Scandinavian Defense|Scandinavian|Centre Counter', 'Scotch Game|Scotch', 'Dutch Defence|Dutch Defense|Dutch', 'Pirc Defence|Pirc Defense|Pirc', 'Nimzo-Indian|Nimzo-Indian Defence|Nimzo Indian', 'Slav Defence|Slav Defense|Slav', 'Queen\'s Gambit Declined', 'Queen\'s Gambit Accepted', 'Grünfeld Defence|Grunfeld|Grünfeld', 'Alekhine\'s Defence|Alekhine Defence|Alekhine', 'Petrov Defence|Petroff|Russian Game|Petrov', 'Vienna Game|Vienna', 'Evans Gambit', 'Fried Liver Attack|Fried Liver', 'Two Knights Defence|Two Knights'],
+      octopus: ['Benoni|Modern Benoni', 'Benko Gambit|Volga Gambit', 'Catalan|Catalan Opening', 'Réti Opening|Reti Opening|Reti|Réti', 'Bird\'s Opening|Bird Opening', 'Budapest Gambit', 'Danish Gambit', 'Philidor Defence|Philidor', 'Modern Defence|Modern Defense', 'Owen\'s Defence', 'Queen\'s Indian Defence|Queen\'s Indian', 'Bogo-Indian|Bogo Indian', 'Trompowsky Attack|Trompowsky', 'Colle System|Colle', 'Torre Attack', 'Stonewall Attack|Stonewall', 'Smith-Morra Gambit|Morra Gambit', 'Najdorf|Najdorf Variation', 'Dragon|Sicilian Dragon|Dragon Variation', 'Berlin Defence|Berlin Defense|Berlin', 'Marshall Attack|Marshall Gambit', 'Semi-Slav', 'Tarrasch Defence|Tarrasch', 'Englund Gambit', 'Elephant Gambit', 'Latvian Gambit', 'Jobava London', 'Larsen\'s Opening|Nimzo-Larsen', 'Ponziani Opening|Ponziani', 'Four Knights Game|Four Knights', 'Bishop\'s Opening'],
+      anglerfish: ['Grob Opening|Grob', 'Sokolsky Opening|Polish Opening|Orangutan', 'Hippopotamus Defence|Hippo', 'Albin Countergambit|Albin', 'Blackmar-Diemer Gambit', 'Stafford Gambit', 'Cochrane Gambit', 'Schliemann Defence|Jaenisch Gambit', 'Traxler Counterattack|Wilkes-Barre', 'Halloween Gambit', 'Muzio Gambit', 'Max Lange Attack', 'Scheveningen', 'Sveshnikov|Sveshnikov Variation', 'Taimanov', 'Kan Variation|Kan', 'Accelerated Dragon', 'Rossolimo', 'Alapin|Alapin Variation', 'Grand Prix Attack', 'Botvinnik System', 'Hedgehog', 'Old Indian Defence|Old Indian', 'Czech Benoni', 'Snake Benoni', 'Nimzowitsch Defence|Nimzowitsch', 'Bongcloud|Bongcloud Attack', 'Amar Opening|Amar', 'Durkin Opening|Durkin', 'Saragossa Opening', 'Van Geet Opening|Dunst Opening', 'Mieses Opening', 'St. George Defence|St George', 'Borg Defence|Grob Defence', 'Fajarowicz Variation'],
+    },
+  },
+  {
+    id: 'gam-franchise',
+    theme: 'games',
+    prompt: 'Name a video game series',
+    hint: 'A franchise with more than one game',
+    open: true,
+    answers: {
+      plankton: ['Mario|Super Mario', 'Pokémon|Pokemon', 'Call of Duty|COD', 'Grand Theft Auto|GTA', 'Minecraft', 'FIFA|EA Sports FC|EA FC'],
+      shrimp: ['Tetris', 'The Sims|Sims', 'Fortnite', 'Mario Kart', 'Zelda|The Legend of Zelda', 'Sonic|Sonic the Hedgehog', 'Assassin\'s Creed', 'Final Fantasy', 'Resident Evil', 'Lego|Lego video games', 'Need for Speed', 'Wii Sports|Wii Fit'],
+      jellyfish: ['Battlefield', 'Tom Clancy\'s|Tom Clancy', 'Halo', 'Pro Evolution Soccer|PES|eFootball', 'Madden|Madden NFL', 'Dragon Quest', 'Monster Hunter', 'Street Fighter', 'Mortal Kombat', 'Tekken', 'Gran Turismo', 'Just Dance', 'Crash Bandicoot', 'Donkey Kong', 'Kirby', 'Red Dead|Red Dead Redemption', 'Animal Crossing', 'Super Smash Bros.|Smash Bros|Super Smash Bros', 'Pac-Man|Pac Man', 'Star Wars', 'Guitar Hero', 'Spider-Man|Spiderman', 'The Witcher|Witcher', 'Fallout', 'The Elder Scrolls|Elder Scrolls|Skyrim', 'Diablo', 'Warcraft|World of Warcraft', 'NBA 2K', 'Far Cry', 'Doom', 'Counter-Strike|CS', 'Dark Souls|Souls', 'Metal Gear', 'Hitman'],
+      octopus: ['Borderlands', 'Kingdom Hearts', 'Yu-Gi-Oh!|Yu-Gi-Oh', 'Dragon Ball', 'Tom Clancy\'s Rainbow Six|Rainbow Six', 'Splinter Cell', 'Ghost Recon', 'Prince of Persia', 'Rayman', 'Frogger', 'Space Invaders', 'Mega Man|Megaman', 'Spyro', 'Tomb Raider', 'Uncharted', 'God of War', 'Batman: Arkham|Arkham', 'Forza', 'Gears of War', 'StarCraft|Starcraft', 'Sid Meier\'s Civilization|Civilization|Civ', 'Total War', 'Dead or Alive', 'Pro Skater|Tony Hawk\'s|Tony Hawk', 'Brain Age|Brain Training', 'Nintendogs', 'Professor Layton', 'Persona', 'Shin Megami Tensei', 'Monster Strike', 'Puzzle & Dragons|Puzzle and Dragons', 'Angry Birds', 'Candy Crush', 'Clash of Clans', 'Roblox', 'PUBG'],
+    },
+  },
+];
