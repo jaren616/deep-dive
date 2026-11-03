@@ -1,0 +1,106 @@
+import type { QuestionDef } from '../../types';
+
+export const science: QuestionDef[] = [
+  {
+    id: 'sci-element',
+    theme: 'science',
+    prompt: 'Name a chemical element',
+    hint: 'Name, not symbol',
+    answers: {
+      plankton: ['Oxygen', 'Hydrogen', 'Carbon', 'Gold', 'Iron'],
+      shrimp: ['Nitrogen', 'Helium', 'Silver', 'Copper', 'Sodium', 'Calcium', 'Lead', 'Uranium', 'Chlorine', 'Aluminium|Aluminum', 'Zinc', 'Neon', 'Mercury', 'Potassium', 'Lithium', 'Magnesium', 'Platinum'],
+      jellyfish: ['Sulfur|Sulphur', 'Phosphorus', 'Silicon', 'Tin', 'Nickel', 'Titanium', 'Plutonium', 'Fluorine', 'Iodine', 'Argon', 'Cobalt', 'Chromium', 'Manganese', 'Tungsten', 'Radium', 'Radon', 'Bromine', 'Krypton', 'Xenon', 'Boron', 'Beryllium', 'Arsenic', 'Cadmium', 'Barium', 'Caesium|Cesium', 'Strontium'],
+      octopus: ['Palladium', 'Rhodium', 'Iridium', 'Osmium', 'Bismuth', 'Antimony', 'Selenium', 'Germanium', 'Gallium', 'Indium', 'Vanadium', 'Molybdenum', 'Zirconium', 'Thorium', 'Polonium', 'Francium', 'Rubidium', 'Scandium', 'Yttrium', 'Niobium', 'Tantalum', 'Hafnium', 'Rhenium', 'Thallium', 'Tellurium', 'Astatine', 'Americium', 'Curium', 'Einsteinium', 'Nobelium', 'Neodymium', 'Lanthanum', 'Cerium', 'Europium', 'Ruthenium', 'Technetium'],
+      anglerfish: ['Praseodymium', 'Promethium', 'Samarium', 'Gadolinium', 'Terbium', 'Dysprosium', 'Holmium', 'Erbium', 'Thulium', 'Ytterbium', 'Lutetium', 'Actinium', 'Protactinium', 'Neptunium', 'Berkelium', 'Californium', 'Fermium', 'Mendelevium', 'Lawrencium', 'Rutherfordium', 'Dubnium', 'Seaborgium', 'Bohrium', 'Hassium', 'Meitnerium', 'Darmstadtium', 'Roentgenium', 'Copernicium', 'Nihonium', 'Flerovium', 'Moscovium', 'Livermorium', 'Tennessine', 'Oganesson'],
+    },
+  },
+  {
+    id: 'sci-planet-moon',
+    theme: 'science',
+    prompt: 'Name a moon in our Solar System',
+    hint: 'Any natural satellite of a planet or dwarf planet',
+    open: true,
+    answers: {
+      plankton: ['The Moon|Moon|Luna'],
+      shrimp: ['Europa', 'Titan', 'Io', 'Ganymede', 'Phobos', 'Deimos'],
+      jellyfish: ['Callisto', 'Enceladus', 'Triton', 'Charon'],
+      octopus: ['Mimas', 'Rhea', 'Iapetus', 'Dione', 'Tethys', 'Miranda', 'Titania', 'Oberon', 'Ariel', 'Umbriel', 'Hyperion', 'Phoebe', 'Amalthea', 'Nereid'],
+      anglerfish: ['Proteus', 'Puck', 'Pan', 'Atlas', 'Prometheus', 'Pandora', 'Janus', 'Epimetheus', 'Himalia', 'Thebe', 'Metis', 'Adrastea', 'Elara', 'Pasiphae', 'Sinope', 'Carme', 'Ananke', 'Leda', 'Nix', 'Hydra', 'Kerberos', 'Styx', 'Dysnomia', 'Hiʻiaka|Hiiaka', 'Namaka', 'Cordelia', 'Ophelia', 'Bianca', 'Cressida', 'Desdemona', 'Juliet', 'Portia', 'Rosalind', 'Belinda', 'Perdita', 'Mab', 'Cupid', 'Caliban', 'Sycorax', 'Prospero', 'Setebos', 'Stephano', 'Trinculo', 'Francisco', 'Margaret', 'Ferdinand', 'Naiad', 'Thalassa', 'Despina', 'Galatea', 'Larissa', 'Hippocamp', 'Halimede', 'Sao', 'Laomedeia', 'Psamathe', 'Neso', 'Calypso', 'Telesto', 'Helene', 'Polydeuces', 'Daphnis', 'Methone', 'Pallene', 'Anthe', 'Aegaeon', 'Ymir', 'Paaliaq', 'Siarnaq', 'Tarvos', 'Ijiraq', 'Kiviuq', 'Mundilfari', 'Albiorix', 'Skathi', 'Erriapus', 'Narvi', 'Callirrhoe', 'Themisto', 'Megaclite', 'Taygete', 'Chaldene', 'Harpalyke', 'Kalyke', 'Iocaste', 'Erinome', 'Isonoe', 'Praxidike', 'Autonoe', 'Thyone', 'Hermippe', 'Aitne', 'Eurydome', 'Euanthe', 'Euporie', 'Orthosie', 'Sponde', 'Kale', 'Pasithee', 'Mneme', 'Thelxinoe', 'Valetudo', 'Dia', 'Carpo', 'Weywot', 'Vanth', 'Actaea', 'Ilmarë|Ilmare', 'MK2', 'Xiangliu'],
+    },
+  },
+  {
+    id: 'sci-bone',
+    theme: 'science',
+    prompt: 'Name a bone in the human body',
+    answers: {
+      plankton: ['Femur|Thigh bone', 'Skull|Cranium', 'Rib|Ribs', 'Spine|Vertebra|Vertebrae|Backbone'],
+      shrimp: ['Tibia|Shin bone|Shinbone', 'Humerus', 'Pelvis|Hip bone|Hip', 'Jaw|Jawbone|Mandible', 'Collarbone|Clavicle', 'Kneecap|Patella', 'Sternum|Breastbone'],
+      jellyfish: ['Fibula', 'Radius', 'Ulna', 'Scapula|Shoulder blade', 'Coccyx|Tailbone', 'Sacrum', 'Phalanges|Phalanx', 'Metacarpals|Metacarpal', 'Metatarsals|Metatarsal', 'Maxilla', 'Stapes|Stirrup', 'Carpals|Carpal', 'Tarsals|Tarsal'],
+      octopus: ['Incus|Anvil', 'Malleus|Hammer', 'Hyoid', 'Ilium', 'Ischium', 'Pubis', 'Calcaneus|Heel bone', 'Talus|Ankle bone', 'Atlas', 'Axis', 'Frontal bone|Frontal', 'Parietal|Parietal bone', 'Temporal bone|Temporal', 'Occipital|Occipital bone', 'Zygomatic|Cheekbone|Zygomatic bone', 'Nasal bone', 'Sphenoid', 'Ethmoid', 'Scaphoid', 'Lumbar vertebrae', 'Cervical vertebrae', 'Thoracic vertebrae'],
+      anglerfish: ['Lunate', 'Triquetrum', 'Pisiform', 'Trapezium', 'Trapezoid', 'Capitate', 'Hamate', 'Navicular', 'Cuboid', 'Medial cuneiform', 'Intermediate cuneiform', 'Lateral cuneiform', 'Cuneiform', 'Vomer', 'Lacrimal', 'Palatine', 'Inferior nasal concha|Nasal concha', 'Sesamoid'],
+    },
+  },
+  {
+    id: 'sci-scientist',
+    theme: 'science',
+    prompt: 'Name a Nobel Prize winner in Physics',
+    hint: 'Surname is fine',
+    answers: {
+      plankton: ['Albert Einstein|Einstein', 'Marie Curie|Curie'],
+      shrimp: ['Niels Bohr|Bohr', 'Richard Feynman|Feynman', 'Max Planck|Planck', 'Peter Higgs|Higgs', 'Paul Dirac|Dirac', 'Werner Heisenberg|Heisenberg', 'Erwin Schrodinger|Schrödinger|Schrodinger'],
+      jellyfish: ['Pierre Curie', 'Wilhelm Rontgen|Röntgen|Rontgen|Roentgen', 'Ernest Rutherford|Rutherford', 'J.J. Thomson|JJ Thomson|Thomson', 'Enrico Fermi|Fermi', 'Wolfgang Pauli|Pauli', 'James Chadwick|Chadwick', 'Guglielmo Marconi|Marconi', 'Roger Penrose|Penrose', 'Henri Becquerel|Becquerel', 'Max Born|Born', 'Louis de Broglie|de Broglie', 'Murray Gell-Mann|Gell-Mann', 'Steven Weinberg|Weinberg', 'Kip Thorne|Thorne', 'Geoffrey Hinton|Hinton', 'John Hopfield|Hopfield', 'Andre Geim|Geim', 'Konstantin Novoselov|Novoselov'],
+      octopus: ['Hendrik Lorentz|Lorentz', 'Pieter Zeeman|Zeeman', 'Lord Rayleigh|Rayleigh', 'Albert Michelson|Michelson', 'Gabriel Lippmann|Lippmann', 'Johannes van der Waals|van der Waals', 'Wilhelm Wien|Wien', 'Max von Laue|von Laue', 'William Henry Bragg|William Lawrence Bragg|Bragg', 'Charles Barkla|Barkla', 'Johannes Stark|Stark', 'Charles Edouard Guillaume|Guillaume', 'Robert Millikan|Millikan', 'Manne Siegbahn|Siegbahn', 'James Franck|Franck', 'Gustav Hertz', 'Jean Perrin|Perrin', 'Arthur Compton|Compton', 'C.V. Raman|CV Raman|Raman', 'Carl Anderson', 'Victor Hess|Hess', 'Clinton Davisson|Davisson', 'George Paget Thomson|G.P. Thomson', 'Ernest Lawrence|Lawrence', 'Otto Stern', 'Isidor Rabi|Rabi', 'Percy Bridgman|Bridgman', 'Edward Appleton|Appleton', 'Patrick Blackett|Blackett', 'Hideki Yukawa|Yukawa', 'Cecil Powell|Powell', 'John Cockcroft|Cockcroft', 'Ernest Walton|Walton', 'Felix Bloch|Bloch', 'Edward Purcell|Purcell', 'Frits Zernike|Zernike', 'Willis Lamb|Lamb', 'Polykarp Kusch|Kusch', 'William Shockley|Shockley', 'John Bardeen|Bardeen', 'Walter Brattain|Brattain', 'Chen Ning Yang|Yang', 'Tsung-Dao Lee|T.D. Lee', 'Emilio Segre|Segrè|Segre', 'Owen Chamberlain|Chamberlain', 'Donald Glaser|Glaser', 'Robert Hofstadter|Hofstadter', 'Rudolf Mossbauer|Mössbauer|Mossbauer', 'Lev Landau|Landau', 'Eugene Wigner|Wigner', 'Maria Goeppert Mayer|Goeppert Mayer|Goeppert-Mayer', 'Hans Jensen|Jensen', 'Charles Townes|Townes', 'Julian Schwinger|Schwinger', 'Sin-Itiro Tomonaga|Tomonaga', 'Alfred Kastler|Kastler', 'Hans Bethe|Bethe', 'Luis Alvarez|Alvarez', 'Hannes Alfven|Alfvén|Alfven', 'Louis Neel|Néel|Neel', 'Dennis Gabor|Gabor', 'Leon Cooper|Cooper', 'John Robert Schrieffer|Schrieffer', 'Leo Esaki|Esaki', 'Ivar Giaever|Giaever', 'Brian Josephson|Josephson', 'Martin Ryle|Ryle', 'Antony Hewish|Hewish', 'Aage Bohr', 'Ben Mottelson|Mottelson', 'James Rainwater|Rainwater', 'Burton Richter|Richter', 'Samuel Ting|Ting', 'Philip Anderson', 'Nevill Mott|Mott', 'John Van Vleck|Van Vleck', 'Pyotr Kapitsa|Kapitsa', 'Arno Penzias|Penzias', 'Robert Wilson', 'Sheldon Glashow|Glashow', 'Abdus Salam|Salam', 'James Cronin|Cronin', 'Val Fitch|Fitch', 'Subrahmanyan Chandrasekhar|Chandrasekhar', 'William Fowler|Fowler', 'Carlo Rubbia|Rubbia', 'Simon van der Meer|van der Meer', 'Klaus von Klitzing|von Klitzing', 'Ernst Ruska|Ruska', 'Gerd Binnig|Binnig', 'Heinrich Rohrer|Rohrer', 'Georg Bednorz|Bednorz', 'Alex Muller|Müller', 'Leon Lederman|Lederman', 'Melvin Schwartz', 'Jack Steinberger|Steinberger', 'Wolfgang Paul', 'Hans Dehmelt|Dehmelt', 'Norman Ramsey|Ramsey', 'Jerome Friedman', 'Henry Kendall|Kendall', 'Richard Taylor', 'Pierre-Gilles de Gennes|de Gennes', 'Georges Charpak|Charpak', 'Russell Hulse|Hulse', 'Joseph Taylor', 'Bertram Brockhouse|Brockhouse', 'Clifford Shull|Shull', 'Martin Perl|Perl', 'Frederick Reines|Reines', 'David Lee', 'Douglas Osheroff|Osheroff', 'Robert Richardson', 'Steven Chu|Chu', 'Claude Cohen-Tannoudji|Cohen-Tannoudji', 'William Phillips', 'Robert Laughlin|Laughlin', 'Horst Stormer|Störmer|Stormer', 'Daniel Tsui|Tsui', 'Gerard t Hooft|\'t Hooft|t Hooft', 'Martinus Veltman|Veltman', 'Zhores Alferov|Alferov', 'Herbert Kroemer|Kroemer', 'Jack Kilby|Kilby', 'Eric Cornell|Cornell', 'Wolfgang Ketterle|Ketterle', 'Carl Wieman|Wieman', 'Raymond Davis|Davis', 'Masatoshi Koshiba|Koshiba', 'Riccardo Giacconi|Giacconi', 'Alexei Abrikosov|Abrikosov', 'Vitaly Ginzburg|Ginzburg', 'Anthony Leggett|Leggett', 'David Gross|Gross', 'David Politzer|Politzer', 'Frank Wilczek|Wilczek', 'Roy Glauber|Glauber', 'John Hall', 'Theodor Hansch|Hänsch|Hansch', 'John Mather|Mather', 'George Smoot|Smoot', 'Albert Fert|Fert', 'Peter Grunberg|Grünberg|Grunberg', 'Yoichiro Nambu|Nambu', 'Makoto Kobayashi|Kobayashi', 'Toshihide Maskawa|Maskawa', 'Charles Kao|Kao', 'Willard Boyle|Boyle', 'George Smith', 'Saul Perlmutter|Perlmutter', 'Brian Schmidt|Schmidt', 'Adam Riess|Riess', 'Serge Haroche|Haroche', 'David Wineland|Wineland', 'Francois Englert|François Englert|Englert', 'Isamu Akasaki|Akasaki', 'Hiroshi Amano|Amano', 'Shuji Nakamura|Nakamura', 'Takaaki Kajita|Kajita', 'Arthur McDonald|McDonald', 'David Thouless|Thouless', 'Duncan Haldane|Haldane', 'Michael Kosterlitz|Kosterlitz', 'Rainer Weiss|Weiss', 'Barry Barish|Barish', 'Arthur Ashkin|Ashkin', 'Gerard Mourou|Mourou', 'Donna Strickland|Strickland', 'James Peebles|Peebles', 'Michel Mayor|Mayor', 'Didier Queloz|Queloz', 'Reinhard Genzel|Genzel', 'Andrea Ghez|Ghez', 'Syukuro Manabe|Manabe', 'Klaus Hasselmann|Hasselmann', 'Giorgio Parisi|Parisi', 'Alain Aspect|Aspect', 'John Clauser|Clauser', 'Anton Zeilinger|Zeilinger', 'Pierre Agostini|Agostini', 'Ferenc Krausz|Krausz', 'Anne L\'Huillier|L\'Huillier', 'John Clarke', 'Michel Devoret|Devoret', 'John Martinis|Martinis'],
+    },
+  },
+  {
+    id: 'sci-dinosaur',
+    theme: 'science',
+    prompt: 'Name a dinosaur',
+    hint: 'Pterosaurs and marine reptiles count too',
+    open: true,
+    answers: {
+      plankton: ['Tyrannosaurus rex|T. rex|T rex|Tyrannosaurus', 'Triceratops', 'Velociraptor|Raptor'],
+      shrimp: ['Stegosaurus', 'Brachiosaurus', 'Diplodocus', 'Pterodactyl|Pterodactylus', 'Spinosaurus', 'Ankylosaurus', 'Brontosaurus', 'Iguanodon'],
+      jellyfish: ['Allosaurus', 'Parasaurolophus', 'Pteranodon', 'Dilophosaurus', 'Gallimimus', 'Pachycephalosaurus', 'Compsognathus', 'Apatosaurus', 'Mosasaurus', 'Plesiosaurus|Plesiosaur', 'Carnotaurus', 'Giganotosaurus', 'Archaeopteryx', 'Megalosaurus', 'Argentinosaurus', 'Deinonychus', 'Oviraptor', 'Ichthyosaurus|Ichthyosaur', 'Baryonyx', 'Therizinosaurus', 'Quetzalcoatlus', 'Edmontosaurus', 'Protoceratops', 'Styracosaurus', 'Utahraptor', 'Indominus rex|Indominus'],
+      octopus: ['Maiasaura', 'Hadrosaurus', 'Corythosaurus', 'Lambeosaurus', 'Kentrosaurus', 'Euoplocephalus', 'Nodosaurus', 'Ceratosaurus', 'Coelophysis', 'Troodon', 'Microraptor', 'Dimetrodon', 'Plateosaurus', 'Herrerasaurus', 'Eoraptor', 'Camarasaurus', 'Sauropelta', 'Dreadnoughtus', 'Patagotitan', 'Mamenchisaurus', 'Suchomimus', 'Albertosaurus', 'Daspletosaurus', 'Tarbosaurus', 'Yutyrannus', 'Dracorex', 'Stygimoloch', 'Ouranosaurus', 'Muttaburrasaurus', 'Minmi', 'Leaellynasaura', 'Scelidosaurus', 'Hypsilophodon', 'Polacanthus', 'Neovenator', 'Elasmosaurus', 'Liopleurodon', 'Kronosaurus', 'Rhamphorhynchus', 'Dimorphodon', 'Hatzegopteryx', 'Sinosauropteryx', 'Psittacosaurus', 'Chasmosaurus', 'Pentaceratops', 'Torosaurus', 'Centrosaurus', 'Pachyrhinosaurus', 'Saltasaurus', 'Amargasaurus', 'Nigersaurus', 'Rajasaurus', 'Majungasaurus', 'Abelisaurus', 'Acrocanthosaurus', 'Carcharodontosaurus', 'Mapusaurus', 'Tyrannotitan', 'Concavenator', 'Sinraptor', 'Guanlong', 'Dilong', 'Shunosaurus', 'Tuojiangosaurus', 'Gigantoraptor', 'Citipati', 'Velociraptor mongoliensis', 'Austroraptor', 'Pyroraptor', 'Atrociraptor', 'Dakotaraptor', 'Saurolophus', 'Shantungosaurus', 'Tsintaosaurus', 'Olorotitan', 'Gryposaurus', 'Brachylophosaurus', 'Zuniceratops', 'Kosmoceratops', 'Nasutoceratops', 'Sinoceratops', 'Achelousaurus', 'Einiosaurus', 'Sauroposeidon', 'Supersaurus', 'Seismosaurus', 'Barosaurus', 'Titanosaurus', 'Alamosaurus', 'Isisaurus', 'Rapetosaurus', 'Ampelosaurus', 'Europasaurus', 'Magyarosaurus', 'Hesperosaurus', 'Gigantspinosaurus', 'Huayangosaurus', 'Dacentrurus', 'Miragaia', 'Gastonia', 'Gargoyleosaurus', 'Borealopelta', 'Zuul', 'Ankylosaurus magniventris', 'Pinacosaurus', 'Saichania', 'Tarchia', 'Edmontonia', 'Panoplosaurus', 'Tenontosaurus', 'Thescelosaurus', 'Orodromeus', 'Dryosaurus', 'Camptosaurus', 'Mantellisaurus', 'Altirhinus', 'Probactrosaurus', 'Lurdusaurus', 'Anchisaurus', 'Massospondylus', 'Riojasaurus', 'Melanorosaurus', 'Lufengosaurus', 'Mussaurus', 'Thecodontosaurus', 'Efraasia', 'Staurikosaurus', 'Saturnalia', 'Pisanosaurus', 'Eodromaeus', 'Tawa', 'Chindesaurus', 'Liliensternus', 'Cryolophosaurus', 'Sinosaurus', 'Monolophosaurus', 'Eustreptospondylus', 'Torvosaurus', 'Afrovenator', 'Marshosaurus', 'Ornitholestes', 'Coelurus', 'Tanycolagreus', 'Juravenator', 'Scipionyx', 'Ornithomimus', 'Struthiomimus', 'Dromiceiomimus', 'Deinocheirus', 'Pelecanimimus', 'Harpymimus', 'Alvarezsaurus', 'Mononykus', 'Shuvuuia', 'Avimimus', 'Caudipteryx', 'Protarchaeopteryx', 'Incisivosaurus', 'Beipiaosaurus', 'Alxasaurus', 'Nothronychus', 'Segnosaurus', 'Erlikosaurus', 'Saurornithoides', 'Byronosaurus', 'Mei', 'Sinornithosaurus', 'Anchiornis', 'Xiaotingia', 'Aurornis', 'Epidexipteryx', 'Yi qi|Yi', 'Ambopteryx', 'Halszkaraptor', 'Balaur', 'Rahonavis', 'Buitreraptor', 'Unenlagia', 'Saurornitholestes', 'Bambiraptor', 'Dromaeosaurus', 'Achillobator', 'Adasaurus', 'Linheraptor', 'Tsaagan', 'Changyuraptor'],
+    },
+  },
+  {
+    id: 'sci-organ',
+    theme: 'science',
+    prompt: 'Name an organ in the human body',
+    answers: {
+      plankton: ['Heart', 'Brain', 'Lungs|Lung', 'Liver'],
+      shrimp: ['Kidneys|Kidney', 'Stomach', 'Skin', 'Intestines|Bowel|Gut', 'Small intestine', 'Large intestine|Colon', 'Bladder|Urinary bladder', 'Pancreas', 'Eyes|Eye'],
+      jellyfish: ['Spleen', 'Gallbladder|Gall bladder', 'Appendix', 'Thyroid|Thyroid gland', 'Oesophagus|Esophagus|Gullet', 'Uterus|Womb', 'Ovaries|Ovary', 'Testes|Testicles|Testis', 'Tongue', 'Prostate', 'Rectum', 'Larynx|Voice box', 'Trachea|Windpipe', 'Ears|Ear', 'Nose', 'Spinal cord'],
+      octopus: ['Adrenal glands|Adrenal gland|Adrenals', 'Pituitary gland|Pituitary', 'Pineal gland|Pineal', 'Thymus', 'Hypothalamus', 'Parathyroid|Parathyroid glands', 'Duodenum', 'Jejunum', 'Ileum', 'Pharynx', 'Ureters|Ureter', 'Urethra', 'Lymph nodes|Lymph node', 'Tonsils|Tonsil', 'Diaphragm', 'Placenta', 'Cerebellum', 'Salivary glands|Salivary gland', 'Mesentery', 'Fallopian tubes|Fallopian tube', 'Cervix', 'Vagina', 'Penis', 'Epididymis', 'Seminal vesicles', 'Bone marrow'],
+      anglerfish: ['Interstitium', 'Cecum|Caecum', 'Sigmoid colon', 'Adenoids', 'Vas deferens', 'Bulbourethral gland|Cowper\'s gland', 'Clitoris', 'Hippocampus', 'Amygdala', 'Medulla oblongata|Medulla', 'Pons', 'Thalamus', 'Corpus callosum', 'Retina', 'Cochlea', 'Olfactory bulb', 'Omentum', 'Islets of Langerhans'],
+    },
+  },
+  {
+    id: 'sci-ocean-animal',
+    theme: 'science',
+    prompt: 'Name an animal that lives in the ocean',
+    open: true,
+    answers: {
+      plankton: ['Shark', 'Whale', 'Dolphin', 'Octopus', 'Fish'],
+      shrimp: ['Jellyfish', 'Crab', 'Starfish|Sea star', 'Turtle|Sea turtle', 'Seal', 'Squid', 'Lobster', 'Shrimp|Prawn', 'Seahorse|Sea horse', 'Clownfish|Clown fish', 'Orca|Killer whale', 'Blue whale', 'Great white shark|Great white', 'Stingray|Ray', 'Eel', 'Sea lion', 'Walrus', 'Penguin', 'Coral'],
+      jellyfish: ['Manta ray|Manta', 'Hammerhead shark|Hammerhead', 'Whale shark', 'Humpback whale|Humpback', 'Narwhal', 'Beluga|Beluga whale', 'Sperm whale', 'Swordfish', 'Tuna', 'Cod', 'Salmon', 'Sardine', 'Mackerel', 'Herring', 'Anchovy', 'Pufferfish|Puffer fish|Blowfish', 'Anglerfish|Angler fish', 'Barracuda', 'Moray eel|Moray', 'Sea urchin', 'Sea cucumber', 'Sea anemone|Anemone', 'Oyster', 'Mussel', 'Clam', 'Scallop', 'Krill', 'Plankton', 'Sea otter', 'Manatee', 'Dugong', 'Cuttlefish', 'Nautilus', 'Lionfish', 'Flying fish', 'Marlin', 'Sailfish', 'Tiger shark', 'Bull shark', 'Mako shark|Mako', 'Giant squid', 'Colossal squid', 'Albatross', 'Pelican', 'Puffin', 'Seagull|Gull', 'Hermit crab', 'Sponge|Sea sponge', 'Barnacle', 'Sea slug|Nudibranch', 'Plaice', 'Halibut', 'Sole', 'Flounder', 'Haddock', 'Pollock', 'Mullet', 'Sea bass', 'Grouper', 'Snapper', 'Parrotfish', 'Angelfish', 'Butterflyfish', 'Tang|Blue tang', 'Wrasse', 'Box jellyfish', 'Portuguese man o\' war|Man o\' war'],
+      octopus: ['Blobfish', 'Dumbo octopus', 'Vampire squid', 'Gulper eel|Pelican eel', 'Viperfish', 'Fangtooth', 'Hatchetfish', 'Lanternfish', 'Oarfish', 'Sunfish|Ocean sunfish|Mola mola', 'Leafy sea dragon|Sea dragon', 'Frilled shark', 'Goblin shark', 'Greenland shark', 'Megamouth shark|Megamouth', 'Basking shark', 'Thresher shark', 'Wobbegong', 'Nurse shark', 'Lemon shark', 'Blue-ringed octopus', 'Mimic octopus', 'Giant Pacific octopus', 'Firefly squid', 'Mantis shrimp', 'Pistol shrimp', 'Coconut crab', 'Japanese spider crab|Spider crab', 'King crab', 'Horseshoe crab', 'Sea pen', 'Sea lily|Crinoid', 'Brittle star', 'Sand dollar', 'Conch', 'Cowrie', 'Abalone', 'Limpet', 'Whelk', 'Periwinkle', 'Chiton', 'Sea butterfly|Pteropod', 'Salp', 'Comb jelly|Ctenophore', 'Siphonophore', 'Tube worm|Giant tube worm', 'Christmas tree worm', 'Bobbit worm', 'Coelacanth', 'Hagfish', 'Lamprey', 'Chimaera|Ghost shark', 'Electric ray|Torpedo ray', 'Sawfish', 'Guitarfish', 'Eagle ray', 'Cownose ray', 'Skate', 'Stonefish', 'Scorpionfish', 'Frogfish', 'Batfish', 'Triggerfish', 'Boxfish', 'Cowfish', 'Porcupinefish', 'Wolf eel', 'Garden eel', 'Ribbon eel', 'Conger eel|Conger', 'Remora', 'Pilot fish', 'Cleaner wrasse', 'Mandarinfish', 'Damselfish', 'Goby', 'Blenny', 'Jawfish', 'Toadfish', 'Wahoo', 'Mahi-mahi|Dorado', 'Bonito', 'Opah', 'Bowhead whale', 'Fin whale', 'Sei whale', 'Minke whale', 'Grey whale|Gray whale', 'Right whale', 'Pilot whale', 'Beaked whale', 'Pygmy sperm whale', 'Porpoise', 'Vaquita', 'Leopard seal', 'Elephant seal', 'Harp seal', 'Weddell seal', 'Fur seal', 'Monk seal', 'Polar bear', 'Marine iguana', 'Sea snake', 'Saltwater crocodile', 'Leatherback turtle', 'Loggerhead turtle', 'Green turtle', 'Hawksbill turtle', 'Frigatebird', 'Gannet', 'Booby', 'Shearwater', 'Petrel', 'Tern', 'Cormorant', 'Skua'],
+      anglerfish: ['Barreleye', 'Black swallower', 'Stoplight loosejaw', 'Bristlemouth', 'Snailfish', 'Tripod fish|Tripodfish', 'Telescope octopus', 'Glass octopus', 'Bigfin squid', 'Cock-eyed squid', 'Yeti crab', 'Scaly-foot snail', 'Pompeii worm', 'Zombie worm|Osedax', 'Giant isopod', 'Amphipod', 'Copepod', 'Sea pig', 'Sea angel', 'Headless chicken monster|Enypniastes', 'Deep-sea dragonfish|Dragonfish', 'Sabertooth fish', 'Cookiecutter shark', 'Sleeper shark', 'Bramble shark', 'Lanternshark', 'Kitefin shark', 'Pocket shark', 'Pyrosome', 'Larvacean', 'Giant siphonophore', 'Dumbo', 'Gulper shark', 'Cusk eel', 'Grenadier|Rattail', 'Orange roughy', 'Slimehead', 'Sea toad', 'Coffinfish', 'Hairy frogfish', 'Pacific blackdragon', 'Spookfish', 'Ghost fish', 'Benthocodon', 'Deepstaria', 'Stygiomedusa', 'Atolla', 'Big red jelly', 'Halitrephes', 'Venus flower basket', 'Glass sponge', 'Carnivorous sponge', 'Xenophyophore', 'Hydrothermal vent shrimp', 'Rimicaris', 'Alvinella', 'Riftia', 'Lophelia', 'Bone-eating worm', 'Ophiuroid', 'Holothurian', 'Scotoplanes', 'Chauliodus', 'Anoplogaster', 'Macropinna', 'Melanocetus', 'Eurypharynx', 'Grimpoteuthis', 'Vampyroteuthis', 'Architeuthis', 'Mesonychoteuthis', 'Kiwa', 'Bathynomus'],
+    },
+  },
+  {
+    id: 'sci-si-unit',
+    theme: 'science',
+    prompt: 'Name an SI unit',
+    hint: 'Base or named derived units',
+    answers: {
+      plankton: ['Metre|Meter', 'Kilogram|Kilogramme', 'Second'],
+      shrimp: ['Newton', 'Joule', 'Watt', 'Volt', 'Ampere|Amp', 'Kelvin'],
+      jellyfish: ['Ohm', 'Pascal', 'Hertz', 'Coulomb', 'Mole'],
+      octopus: ['Candela', 'Tesla', 'Weber', 'Farad', 'Henry', 'Siemens', 'Radian', 'Becquerel', 'Lumen', 'Lux'],
+      anglerfish: ['Gray', 'Sievert', 'Katal', 'Steradian', 'Degree Celsius'],
+    },
+  },
+];

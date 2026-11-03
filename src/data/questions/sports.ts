@@ -102,7 +102,7 @@ export const sports: QuestionDef[] = [
       plankton: ['Football|Soccer', 'Basketball', 'Tennis'],
       shrimp: ['Cricket', 'Rugby|Rugby union|Rugby league', 'Golf', 'Baseball', 'Volleyball', 'American football|Gridiron'],
       jellyfish: ['Hockey|Field hockey', 'Netball', 'Table tennis|Ping pong', 'Squash', 'Handball', 'Snooker', 'Pool', 'Water polo', 'Dodgeball', 'Bowling|Ten-pin bowling', 'Badminton'],
-      octopus: ['Rounders', 'Softball', 'Lacrosse', 'Polo', 'Billiards', 'Bowls|Lawn bowls', 'Croquet', 'Gaelic football', 'Australian rules football|Aussie rules|AFL', 'Beach volleyball', 'Futsal', 'Racquetball', 'Padel', 'Kickball', 'Pickleball', 'Water polo', 'Goalball', 'Wheelchair basketball'],
+      octopus: ['Rounders', 'Softball', 'Lacrosse', 'Polo', 'Billiards', 'Bowls|Lawn bowls', 'Croquet', 'Gaelic football', 'Australian rules football|Aussie rules|AFL', 'Beach volleyball', 'Futsal', 'Racquetball', 'Padel', 'Kickball', 'Pickleball', 'Goalball', 'Wheelchair basketball'],
       anglerfish: ['Hurling', 'Camogie', 'Pelota|Basque pelota|Jai alai', 'Sepak takraw', 'Korfball', 'Shinty', 'Fives', 'Real tennis', 'Rackets', 'Bocce', 'Petanque|Pétanque|Boules', 'Kabaddi', 'Bandy', 'Teqball', 'Footvolley', 'Tchoukball', 'Stoolball', 'Eton wall game', 'Cycle ball', 'Underwater rugby', 'Canoe polo', 'Elephant polo', 'Buzkashi', 'Kemari', 'Chinlone'],
     },
   },
